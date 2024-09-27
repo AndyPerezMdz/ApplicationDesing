@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.changelog-container {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px 45px;
+    height: 530px;
+    width: 500px;
+    border: 1px solid #000000;
+}
+
+.changelog-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.changelog-header h1 {
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+
+.changelog-header p {
+    color: #777;
+    font-size: 14px;
+}
+
+.timeline {
+    position: relative;
+    padding-left: 40px;
+    margin-bottom: 20px;
+    border-left: 2px solid #ddd;
+}
+
+.timeline-item {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.timeline-item:last-child {
+    margin-bottom: 0;
+}
+
+.timeline-item::before {
+    content: '';
+    position: absolute;
+    left: -11px;
+    top: 0;
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+.timeline-date {
+    color: #bbb;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.timeline-content {
+    font-size: 16px;
+}
+
+.changelog-footer {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.changelog-footer button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.changelog-footer button:hover {
+    background-color: #444;
+}
