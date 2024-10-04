@@ -10,3 +10,5 @@ https://roadmap.sh/projects/image-grid
 https://roadmap.sh/projects/basic-html-website
 https://roadmap.sh/projects/portfolio-website
 https://roadmap.sh/projects/testimonial-cards
+https://roadmap.sh/projects/simple-tabs
+https://roadmap.sh/projects/cookie-consent
