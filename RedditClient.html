@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reddit Subreddit Client</title>
+  <link rel="stylesheet" href="RedditClient.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Reddit Subreddit Viewer</h1>
+
+    <div class="controls">
+      <input type="text" id="subredditInput" placeholder="Enter subreddit name">
+      <button id="addLaneBtn">Add Subreddit</button>
+    </div>
+
+    <div id="lanesContainer" class="lanes-container">
+    </div>
+
+    <div id="error" class="hidden error">Invalid subreddit or issue fetching data.</div>
+  </div>
+
+  <script src="RedditClient.js"></script>
+</body>
+</html>
