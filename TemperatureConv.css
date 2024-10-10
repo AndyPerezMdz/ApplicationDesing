@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("https://www.losandes.com.ar/resizer/v2/PBH2SLS6NBCCLPR7YBUMSZUPRU.jpg?quality=75&smart=true&auth=c91a3568b7133d7c93e93d905a159bdb557ac46f55fc1774cb8f42e78525610c&width=980&height=640");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: 0 auto;
+    background-image: url("https://i.seadn.io/gae/OjeJBhbHO8jR8tKcTNXSYyrvWi3pOx510uXYglnpiA-hfU2ZEeFdhI-l6F2lOZzUWjD1EBBzRQK4DEjIcChmMvXnmNRwpf8iSUZEHv0?auto=format&dpr=1&w=1000");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  input, select, button {
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  button {
+    cursor: pointer;
+    background-color: #afaf4c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  button:disabled {
+    background-color: grey;
+    cursor: not-allowed;
+  }
+  
+  .result {
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: center;
+  }
+  
